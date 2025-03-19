@@ -1,0 +1,242 @@
+@font-face {
+    font-family: abnormal;
+    src: url(../fontes/abnormal-bold.otf);
+}
+@font-face {
+    font-family: horizon;
+    src: url(../fontes/horizon-new.otf);
+}
+@font-face{
+    font-family: PtSans; 
+    src: url(../fontes/PTS75F.ttf);
+}
+
+
+/*margin_0_body*/
+body{
+    margin: 0;
+}
+
+/* start_litras*/
+.listra_red{
+    background-color: #CB0017;
+    height: 4px;   
+}
+
+.listra_white{
+    background-color: white;
+    height: 4px;
+}
+
+.listra_white_2{
+    background-color: white;
+    height: 4px;
+}
+.listra_red_2{
+    background-color: #CB0017;
+    width: auto;
+    height: 4px;
+}
+
+.listra_black{
+    background-color: black;
+    width: auto;
+    height:4px;
+}
+
+.listra_black_2{
+    background-color: #000000;
+    width: auto;
+    height: 4px;
+}
+/*finish_listras*/
+
+/*start_topbar*/
+.topbar{
+    display: flex;
+    height: 55px;
+    background-color: #000000;
+}
+.topbar ul{
+    display: flex;
+    list-style: none;
+    column-gap: 50px;
+    padding-left: 150px;
+    margin: 0;
+    padding-top: 14px;
+    font-family: abnormal;
+}
+.topbar a{
+    text-decoration: none;
+    color: #FFFF;
+
+}
+.topbar a:hover{
+    color: #CB0017;
+}
+.topbar img{
+    width: 50px;
+    height: 50px;
+    padding-left: 19px;
+    padding-top:4px;
+}
+/*end*/
+
+/*start pag part 1*/
+.img_1992 img{
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 300px;
+    width: 1300px;
+}
+.img_1992 h1{
+    text-align: center;
+    font-family: horizon;
+    color: #CB0017;
+    font-size: xx-large;
+    
+}
+.img_1992 p{
+    width: 1300px;
+    padding-left: 300px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+  
+}
+/*finish part_1*/
+
+/*start part_2*/
+.img_1993 img{
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 300px;
+    width: 1300px;
+}
+.part_2 p{
+    width: 1300px;
+    padding-left: 300px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+
+}
+.part_2 h1{
+    text-align: center;
+    font-family: horizon;
+    color: #CB0017;
+    font-size: xx-large;
+}
+/*finish part_2*/
+
+/*start part_3*/
+.img_2005 img{
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 300px;
+    width: 1300px;
+}
+.part_3 p{
+    width: 1300px;
+    padding-left: 300px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+
+    
+}
+.part_3 h1{
+    text-align: center;
+    font-family: horizon;
+    color: #CB0017;
+    font-size: xx-large;
+}
+/*finish part_3*/
+
+/*start loja*/
+/*banner*/
+.banner_1 {
+    width: 628px;
+    height: 568px;
+
+}
+.banner_1 img{
+    width: 1897px;
+    margin: 0px;
+}
+.teste{
+    width: auto;
+    height: 100px;
+}
+       /*start stand*/
+       .stand_merchan{
+        text-align: center;
+        width: auto;
+        height: 740px;
+       }
+       .stand_merchan h1{
+        font-family: PtSans;
+       }
+       /*start block-shop*/
+       .block_shop{
+        display: flex;
+        margin: auto;
+
+        width: 700px;
+        height: 500px;
+       
+       }
+       /*start camisa*/
+       .camisas img{
+        width: 300px;
+        margin: 20px;
+       }
+
+       .camisa1 img{
+        width: 200px;
+        
+       }
+       .camisa2 img{
+        width: 200px;
+       }
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*patrocinadores start*/
+.Patrocinadores img{
+    width: 115px;
+    margin: auto;
+    
+}
+.Patrocinadores ul{
+    width: auto;
+    height: 50px;
+    display: flex;
+}
+
+.Patrocinadores ul li img{
+    height: 80px;
+    object-fit: contain;
+    margin: 105px;
+}
+.Patrocinadores ul{
+    list-style: none;
+}
+
+
